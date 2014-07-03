@@ -39,4 +39,5 @@ after_script:
 #ln -s dist/hpc/mix/[dir_name] ./dist/hpc/mix/text
 #hpc-coveralls --exclude-dir=[test_dir_name] [test-suit]
  - ln -s dist/hpc/mix/hashable-1.2.1.0 ./dist/hpc/mix/text
- - hpc-coveralls --exclude-dir=tests tests
+ - hpc-coveralls tests
+#--exclude-dir=tests tests
